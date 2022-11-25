@@ -9,4 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: file:\\\C:\MicroService-SpringCloudConfigServerLocalGit # ecommerce.yml 파일이 저장된 파일 경로 지정 (file:// 은 파일 프로토콜을 사용하겠다는 의미이다.)
+#         uri: file:\\\C:\MicroService-SpringCloudConfigServerLocalGit # ecommerce.yml 파일이 저장된 파일 경로 지정 (file:// 은 파일 프로토콜을 사용하겠다는 의미이다.)
+          uri: https://github.com/rngustj9139/MicroService-SpringCloudConfig.git # 깃허브 repo 주소
+#         username: #private repo인 경우만 기재
+#         password: #private repo인 경우만 기재
